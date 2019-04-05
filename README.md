@@ -23,8 +23,7 @@ A proxy server implemented via python socket programming with caching, blacklist
 
       python client.py 20001-20010 20000 19995-19999
       This above commands will run a client which asks, after every 10 seconds, any file from any server in range 19995-19999, using any port in range 20001-20010, via proxy at port 20000
-      If Blacklisted:
-        python client.py -u user:pass 20001-20010 20000 19995-19999
+      
 
 ### Features -
         Ports in range 20101-20200 are outside servers which must not be accessed
