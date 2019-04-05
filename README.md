@@ -5,7 +5,9 @@ A proxy server implemented via python socket programming with caching, blacklist
 ### Files :
       proxy.py is the main proxy file
       Proxy runs on some specific ports, some ports are reserved for clients and some for servers
+      
       Client keeps asking any file [1-5].data from server by GET or POST method
+      
       Server listens to specified port and serves any file as asked
       Proxy works as middleman between the server and client.
 
